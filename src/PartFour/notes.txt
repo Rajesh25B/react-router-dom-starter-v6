@@ -1,0 +1,6 @@
+Data preloading without clicking a link:
+
+If I hover over a Link, it just pre-loads the data instead of
+after clicking and loading the data.
+
+

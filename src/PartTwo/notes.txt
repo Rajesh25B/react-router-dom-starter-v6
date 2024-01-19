@@ -1,0 +1,5 @@
+This folder mainly about <Link> and <NavLink> components.
+<Link> component is like <a> tag
+<NavLink> component allows more control over the <a> tag like
+is it active (user on the page) and etc.,
+Both components navigate to different parts of the app.

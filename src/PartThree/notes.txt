@@ -1,0 +1,18 @@
+**Dynamic URL mapping:
+
+This folder mainly about getting params from the url
+for ex: "localhost:3000/users/1" to grab 1 from above url and pass it inside of a component.
+
+    <Route path='users/' element={<Users />}>
+      <Route path=':userId' element={<Users />}/>
+    </Route>
+
+":userId" is a dynamic, anything that comes after /users/
+we can grab that using a hook called useParams() from react-router-dom.
+
+const userId = useParams()
+
+pass it in JSX as {userId} and view on webpage that shows whatever
+in the url.
+
+
